@@ -46,35 +46,37 @@ partitioning a swarm required by multiple source localization is very effective.
 
 The method proposed is that the swarm of robots will receive movement commands from the Central Server while the robots send back environment data, fire sensing data when requested by the Central Server. The Central Server holds the Control Algorithm which has complete situational awareness and can automatically take routing decisions for the robots based on the changes in the environment.
 
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/SystemOverview.png?raw=true)
+![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/SystemOverview.PNG?raw=true)
 
-Advantages of the proposed method
+Advantages of the proposed method:
 
-•	Scalability – The ability to add robots to the system without the need for any fundamental changes.
+  •	Scalability – The ability to add robots to the system without the need for any fundamental changes.
 
-•	Robustness – The ability to operate the system efficiently even when some of the robots are offline.
+  •	Robustness – The ability to operate the system efficiently even when some of the robots are offline.
 
-•	Ability of the system to fight fires over a broad range of temperature without any changes to the configuration.
+  •	Ability of the system to fight fires over a broad range of temperature without any changes to the configuration.
 
-•	Ability of the system to fight fire in multiple locations.
+  •	Ability of the system to fight fire in multiple locations.
 
-•	Fast Response Time of the System when compared to conventional methods.
+  •	Fast Response Time of the System when compared to conventional methods.
 
-•	Targeted Fire Fighting Ability instead of Scorched Earth approach.
+  •	Targeted Fire Fighting Ability instead of Scorched Earth approach.
 
-•	Swarm-based algorithms have recently emerged as a family of nature-inspired, population-based algorithms that are capable of producing low cost, fast, and robust solutions to several complex problems.
+  •	Swarm-based algorithms have recently emerged as a family of nature-inspired, population-based algorithms that are capable of producing low cost, fast, and robust solutions to several complex problems.
 
-•	No human intervention is necessary.
+  •	No human intervention is necessary.
 
-•	If required in dire situations, they can also provide assistance by giving the firefighter feedback from the robot’s sensors for additional backup.
+  •	If required in dire situations, they can also provide assistance by giving the firefighter feedback from the robot’s sensors for additional backup.
 
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/RobotOverview.png?raw=true)
+The Robot consists of an Arduino Mega 2560 microcontroller which uses a NodeMCU as a Wi-Fi shield to connect to the Wi-Fi Network. The Fire Sensing function of the Robot is done by the Flame Sensor place in front of the Robot. The Obstacle Detection function of the Robot is done by Ultrasonic Sensors placed in the front, left, right of the Robot. The Motors are controlled using a L293D Motor Driver. The Robot has to make perfect 90 degree turns and this is ensured by a turn control system consisting of Magnetometer and Servo meter is used. 
+
+![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/RobotOverview.PNG?raw=true)
 
 **Map**
 
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/Map.png?raw=true)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/Map.png?raw=true)
 
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/MapIndex.png?raw=true)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/MapIndex.png?raw=true)
 
 **Results**
 
@@ -99,14 +101,14 @@ Enter the Location of Fire3 :-91
 ```
 Status of Map
 
-•	Map after the Positions of the Robots are given.
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/InitialPos.png?raw=true) 
+  •	Map after the Positions of the Robots are given.
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/InitialPos.png?raw=true) 
 
-•	Map when the Robots have just reached their respective fire locations (Case 1)
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/3_AtFirePos.png?raw=true)
+  •	Map when the Robots have just reached their respective fire locations (Case 1)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/3_AtFirePos.png?raw=true)
 
-•	Path taken by Robots to reach Initial Positions after fire extinguished (Case 1)
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/3_BackToInitialPos.png?raw=true)
+  •	Path taken by Robots to reach Initial Positions after fire extinguished (Case 1)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/3_BackToInitialPos.png?raw=true)
 
 Case 2 – Two Fire Locations
 
@@ -119,11 +121,11 @@ Enter the Location of Fire2 :- 65
 ```
 Status of Map
 
-•	Map when the Robots have just reached their respective fire locations (Case 2)
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/2_AtFirePos.png?raw=true)
+  •	Map when the Robots have just reached their respective fire locations (Case 2)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/2_AtFirePos.png?raw=true)
 
-•	Path taken by Robots to reach Initial Positions after fire extinguished (Case 2)
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/2_BackToInitialPos.png?raw=true)
+  •	Path taken by Robots to reach Initial Positions after fire extinguished (Case 2)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/2_BackToInitialPos.png?raw=true)
 
 Case 3 – One Fire Location
 
@@ -135,11 +137,11 @@ Enter the Location of Fire1 :-73
 ```
 Status of Map
 
-•	Map when the Robots have just reached their respective fire locations (Case 3)
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/1_AtFirePos.png?raw=true)
+  •	Map when the Robots have just reached their respective fire locations (Case 3)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/1_AtFirePos.png?raw=true)
 
-•	Path taken by Robots to reach Initial Positions after fire extinguished (Case 3)
-![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/1_BackToInitialPos.png?raw=true)
+  •	Path taken by Robots to reach Initial Positions after fire extinguished (Case 3)
+  ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/1_BackToInitialPos.png?raw=true)
 
 
 In the above 3 cases we have recorded the following response time for reaching the fire location. We are taking simulation times into account as real response time also takes in factors such as battery of the robot, network delay, time taken to for the robot to turn/ move one unit, etc.
@@ -153,18 +155,18 @@ In the above 3 cases we have recorded the following response time for reaching t
 The algorithm is performing as expected. It is able to handle multiple fire locations using the swarm of robots. It directs the nearest robot to the nearest fire location. 
 Also, we have to note that the Response Time of the System is completely flexible as multiple factors contribute toward it such as:
 
-•	Number of Robots in the System
+  •	Number of Robots in the System
 
-•	Area of the Indoor Environment/Warehouse
+  •	Area of the Indoor Environment/Warehouse
 
-•	Length of the Grid Location
+  •	Length of the Grid Location
 
 Issues with the Robots
 
-•	Uneven thickness of rubber tires on the wheels, Load balancing and wheel alignment issues are causing the robot not to move forward properly.
+  •	Uneven thickness of rubber tires on the wheels, Load balancing and wheel alignment issues are causing the robot not to move forward properly.
 
-•	Servo motor malfunctions when the submersible pump is switched on.
+  •	Servo motor malfunctions when the submersible pump is switched on.
 
-•	Small Buffer size of the NodeMCU causes only a maximum of 3 calls to be made to the robot in a span of 3 seconds.
+  •	Small Buffer size of the NodeMCU causes only a maximum of 3 calls to be made to the robot in a span of 3 seconds.
 
-•	When the Arduino Board is powered up the Bootloader loads the program into the memory. However, while this happens all the pins are made high due to which the motor is activated.
+  •	When the Arduino Board is powered up the Bootloader loads the program into the memory. However, while this happens all the pins are made high due to which the motor is activated.

@@ -1,3 +1,4 @@
+# **Introduction**  
 “Swarm” behaviour is displayed by many creatures in nature, that is, many single creatures coming together to create some emergent behaviour, based solely on simple actions taken by the individual members of the swarm.
 
 There have been several suggestions for the purposes of swarming behaviour in different species. The most common of these is as a form of defence, with many proposals as to how the behaviour achieves this and other advantages of swarming have been observed, for example in discovery of food sources. Due to this obvious success in the observations, those involved in robotics have attempted to replicate natural examples to create “swarm intelligent” systems. The idea is that many small, cheap, disposable robots can work as one to achieve some goal by following simple behaviours.
@@ -19,16 +20,17 @@ GSO is originally developed for numerical optimization problems that involve com
   ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/SystemOverview.PNG?raw=true)  
 
   ## **Advantages of the proposed method:**  
-    •	Scalability – The ability to add robots to the system without the need for any fundamental changes.  
-    •	Robustness – The ability to operate the system efficiently even when some of the robots are offline.  
-    •	Ability of the system to fight fires over a broad range of temperature without any changes to the configuration.  
-    •	Ability of the system to fight fire in multiple locations.  
-    •	Fast Response Time of the System when compared to conventional methods.  
-    •	Targeted Fire Fighting Ability instead of Scorched Earth approach.  
-    •	Swarm-based algorithms have recently emerged as a family of nature-inspired, population-based algorithms that are capable of producing low cost, fast, and robust solutions to several complex problems.  
-    •	No human intervention is necessary.  
-    •	If required in dire situations, they can also provide assistance by giving the firefighter feedback from the robot’s sensors for additional backup.  
+  •	Scalability – The ability to add robots to the system without the need for any fundamental changes.  
+  •	Robustness – The ability to operate the system efficiently even when some of the robots are offline.  
+  •	Ability of the system to fight fires over a broad range of temperature without any changes to the configuration.  
+  •	Ability of the system to fight fire in multiple locations.  
+  •	Fast Response Time of the System when compared to conventional methods.  
+  •	Targeted Fire Fighting Ability instead of Scorched Earth approach.  
+  •	Swarm-based algorithms have recently emerged as a family of nature-inspired, population-based algorithms that are capable of producing low cost, fast, and robust solutions to several complex problems.  
+  •	No human intervention is necessary.  
+  •	If required in dire situations, they can also provide assistance by giving the firefighter feedback from the robot’s sensors for additional backup.  
 
+  ## **Robot**  
   The Robot consists of an Arduino Mega 2560 microcontroller which uses a NodeMCU as a Wi-Fi shield to connect to the Wi-Fi Network. The Fire Sensing function of the Robot is done by the Flame Sensor place in front of the Robot. The Obstacle Detection function of the Robot is done by Ultrasonic Sensors placed in the front, left, right of the Robot. The Motors are controlled using a L293D Motor Driver. The Robot has to make perfect 90 degree turns and this is ensured by a turn control system consisting of Magnetometer and Servo meter is used.  
 
   ![alt text](https://github.com/krishnamvs/GSO-FireFighting/blob/master/Images/RobotOverview.PNG?raw=true)  

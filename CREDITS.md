@@ -1,0 +1,3 @@
+# CREDITS  
+## This project work titled “FIGHTING FIRES USING SWARM CONTROL ALGORITHMS” was carried out by [M S LALITHA RAMYA ](https://github.com/lalitharamya9), [MADALA VENKATA SIVA KRISHNA](https://github.com/krishnamvs), [MALLAPPA KOUJALAGI ](mmkoujalagi03@gmail.com) and [NIDHI V](nidhitantri@gmail.com), bonafide students of Ramaiah Institute of Technology, Bangalore, in partial fulfilment for the award of degree of Bachelor of Engineering in Electronics and Communication of Visvesvaraya Technological University, Belgaum, during the year 2017-18.  
+## This Project was pursued Under the Guidance of [Dr. Reshma Verma](reshmaverma@msrit.edu), Assistant Professor, Department of Electronics and Communication Engineering, RAMAIAH INSTITUTE OF TECHNOLOGY
